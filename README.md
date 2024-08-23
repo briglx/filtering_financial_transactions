@@ -88,3 +88,8 @@ in
 I initially tried to have nested `each` when filtering out the terms. This didn't work because the magic underscore `_` was not available in the nested `each`.This lead me to create a custom function to handle the filtering.
 
 Also, Instead of adding a new column, I could have filtered out the rows. I took the column route for no particular reason.
+
+# References
+- https://blog.crossjoin.co.uk/2015/05/11/nested-calculations-in-power-query/
+- https://learn.microsoft.com/en-us/powerquery-m/understanding-power-query-m-functions
+- https://excelguru.ca/each-keyword-power-query/
